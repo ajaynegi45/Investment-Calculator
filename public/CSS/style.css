@@ -1,0 +1,193 @@
+*{
+margin: 0px;
+box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto";
+  background-color: #f2f2f7;
+  transition: 0.4s;
+}
+
+
+/* **** <*> **** */
+
+
+/* Form */
+.form{
+  margin: 10vw;
+  margin-bottom: 50px;
+  margin-top: 20px; 
+  text-align: center; 
+}
+.title{
+  font-size: 4vw;
+  text-align: center;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 500px) {
+  .title{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+.label {
+  display: block;
+  margin-bottom: 10px;
+}
+input[type="number"] {
+  width: 240px;
+  padding: 10px;
+  border: 1px solid #4CAF50;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  outline: none;
+} 
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+button:hover {
+  background-color: #45a049;
+}
+#result-label {
+  font-weight: bold;
+}
+#result {
+  margin-top: 5px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.a_tag{
+text-decoration: none;
+color: black;
+font-size: 15px;
+}
+
+
+/* **** <*> **** */
+
+
+/* 2ndDiv info  */
+.info{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 5vw;
+}
+.info .title{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* .info h2{
+  margin: 10px;
+}  */
+.h2_title{
+  margin-top: 20px;
+  font-size: 22px;
+}
+.h2_title2{
+  margin-top: 35px;
+  font-size: 22px;
+}
+.p_tag{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 768px) {
+
+}
+
+
+/* **** <*> **** */
+
+
+/* Dark mode code */
+/* Arrow */
+.arrow{
+  height: 50px;
+  margin-top: 2px;
+  margin-left:60vw;
+}
+.text{
+  margin-top: 2px;
+  margin-left:70vw;
+}
+/* Set background color and text color for dark mode */
+body.dark {
+  background-color: rgb(0, 0, 0);
+  color: #dddddd;
+  /* color: #e3e3e3;  */
+}
+/* Styles for switch element */
+.switch {
+  position: relative;
+  width: 3.5rem;
+  height: 2rem;
+  margin-top: 20px;
+  margin-left: 80vw; 
+}
+/* Hide the switch input element */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+/* Styles for slider element */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(215, 215, 228);
+  transition: 0.4s;
+  border-radius: 30px;
+ 
+}
+/* Styles for slider handle */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.4rem;
+  width: 1.4rem;
+  border-radius: 20px;
+  left: 0.3rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: linear-gradient(40deg, #ff0080, #ff8c00 70%);
+  transition: 0.4s;
+}
+/* Styles for slider when switch is checked */
+input:checked + .slider {
+  background-color: #37393f;
+}
+/* Styles for slider handle when switch is checked */
+input:checked + .slider:before {
+  left: calc(100% - 1.7rem);
+  background: #37393f;
+  box-shadow: inset -4px -2px 4px -2px #8983f7, inset -10px -4px 0px 0px #a3dafb;
+}
+
+
+/* **** <*> **** */
+
+
+/* Styles for footer element */
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 50px;
+  padding-top: 14px;
+}

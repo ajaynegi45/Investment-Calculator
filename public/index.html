@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Set the document metadata -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+<title>Dividend Income Investment Calculator - Free Tool to Plan Your Investments</title>
+<meta name="title" content="Dividend Income Investment Calculator - Free Tool to Plan Your Investments">
+<meta name="description" content="Calculate how much money you need to invest to earn a specific annual income based on the dividend yield of a share. Use our free Dividend Income Investment Calculator to help you plan your investments.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://tools-45.web.app/">
+<meta property="og:title" content="Dividend Income Investment Calculator - Free Tool to Plan Your Investments">
+<meta property="og:description" content="Calculate how much money you need to invest to earn a specific annual income based on the dividend yield of a share. Use our free Dividend Income Investment Calculator to help you plan your investments.">
+<meta property="og:image" content="https://tools-45.web.app/img/tools.jpg">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://tools-45.web.app/">
+<meta property="twitter:title" content="Dividend Income Investment Calculator - Free Tool to Plan Your Investments">
+<meta property="twitter:description" content="Calculate how much money you need to invest to earn a specific annual income based on the dividend yield of a share. Use our free Dividend Income Investment Calculator to help you plan your investments.">
+<meta property="twitter:image" content="https://tools-45.web.app/img/tools.jpg">
+
+<!-- Set the document title and include the CSS stylesheet -->
+<link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+    <label class="switch">
+        <input type="checkbox"/>
+        <span class="slider"></span>
+    </label>
+    <label>
+    <!-- <img src="./Arrow.svg" alt="Arrow img" class="arrow">
+        <p class="text">Dark Mode</p>
+    </label> -->
+
+    <div class="form">
+        <h1 class="title">Dividend Income Investment Calculator</h1>
+        <p></p>
+
+        <!-- Add labels and input fields for the user to input their data -->
+        <label for="moneyPerYear">How much money you want per year:</label>
+        <br>
+        <input type="number" id="moneyPerYear" name="moneyPerYear" placeholder="₹" required>
+        <br>
+        <label for="dividendYield">Dividend yield of a share:</label>
+        <br>
+        <input type="number" id="dividendYield" name="dividendYield" placeholder="%" required>
+        <br>
+
+        <!-- Add a button to trigger the calculation -->
+        <button onclick="calculate()">Calculate</button>
+        <br>
+        
+        <!-- Add a label and paragraph element to display the result -->
+        <label for="result" id="result-label" class="vikas"></label>
+        <p id="result"></p>
+
+        <!-- Link to find Dividend Yield -->
+        <a href="https://www.angelone.in/calculators/dividend-yield-calculator#:~:text=The%20calculation%20is%20done%20using,335)%20*%20100%20%3D%203.58%25" class="a_tag">Click here to find Dividend Yield </a>
+    </div>
+
+    <div class="info">
+
+        <h1 class="title">About Calculator ❤️</h1>
+        
+        <!-- What is Dividend Income Investment Calculator? -->
+        <h2 class="h2_title">What is Dividend Income Investment Calculator?</h2>
+        <p class="p_tag">If you're looking to plan your investments and achieve your income goals, the Dividend Income Investment Calculator is a valuable web application to consider. This tool allows you to easily calculate the how much investment is required to reach a desired income goal based on the dividend yield. Its user-friendly interface and straightforward design make it simple to use for anyone looking to invest in dividend income. With the Dividend Income Investment Calculator, you can efficiently plan your investments and work towards achieving your financial objectives.</p>
+
+        <!-- How it works -->
+        <h2 class="h2_title2">How it works</h2>
+        <p class="p_tag">
+            <ol>
+                <li>The user enters their desired income goal for the year in the "How much money you want per year" input field.</li>
+                <br>
+                <li>The user enters the current dividend yield for the share they're interested in buying in the "Dividend yield of a share" input field.</li>
+                <br>
+                <li>When the user clicks the "Calculate" button, the calculator uses a simple formula to calculate the required investment amount based on the inputs provided by the user.</li>
+                <br>
+                <li>The result of the calculation is displayed on the page, showing the user how much money they need to invest to achieve their income goal at the given dividend yield.</li>
+                <br>
+                <li>The user can adjust the inputs and click the "Calculate" button again to see updated results.</li>
+                <br>
+            </ol>
+            The calculator is designed to be simple and easy to use, providing users with a quick and accurate way to plan their investments and achieve their income goals.
+            <br>
+        </p>
+
+        <!-- Why to use Dividend Income Investment Calculator? -->
+        <h2 class="h2_title2">Why to use Dividend Income Investment Calculator?</h2>
+        <p class="p_tag">There are many reasons why you might want to use the Dividend Income Investment Calculator. Here are a few: 
+            <ul><br>
+                <li><b>Planning</b>: The calculator is a great tool for planning your investments and determining how much you need to invest to reach your income goals.</li>
+                <br>
+                <li><b>Financial Goal Setting</b>: Whether you're saving for retirement, a down payment on a house, or a child's education, the calculator can help you set and achieve your financial goals.</li>
+                <br>
+                <li><b>Risk Management</b>: By calculating the required investment amount based on a given dividend yield, the calculator can help you manage investment risk and ensure that you're making informed decisions.</li>
+                <br>
+            </ul>
+        </p>
+            
+        <!-- Who Should Use Dividend Income Investment Calculator? -->
+        <h2 class="h2_title">Who Should Use Dividend Income Investment Calculator?</h2>
+        <p class="p_tag">The Dividend Income Investment Calculator is designed for anyone who wants to plan their investments and achieve their income goals. Whether you're a beginner investor or an experienced trader, the calculator is a simple and effective tool for investment planning.</p>
+
+        <!-- Conclusion -->
+        <h2 class="h2_title2">Conclusion ✨</h2>
+        <p class="p_tag">The Dividend Income Investment Calculator is a powerful tool that can help you achieve your income goals and plan your investments. It's easy to use, and provides quick and accurate results. Try it out today and see how it can help you reach your financial goals!</p>
+    </div> 
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Developed with ❤️ by Ajay Negi.</p>
+    </div>
+
+  <!-- Include the JavaScript file for the calculation function -->
+  <script src="./Java script/script.js"></script>
+
+</body>
+</html>
+
+
