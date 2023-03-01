@@ -11,7 +11,7 @@ body {
 }
 
 
-/* **** <*> **** */
+/* **** < Hero Section > **** */
 
 
 /* Form */
@@ -74,7 +74,7 @@ font-size: 15px;
 }
 
 
-/* **** <*> **** */
+/* **** < About Section> **** */
 
 
 /* 2ndDiv info  */
@@ -88,9 +88,6 @@ font-size: 15px;
     text-align: center;
     margin-bottom: 20px;
 }
-/* .info h2{
-  margin: 10px;
-}  */
 .h2_title{
   margin-top: 20px;
   font-size: 22px;
@@ -108,79 +105,7 @@ font-size: 15px;
 }
 
 
-/* **** <*> **** */
-
-
-/* Dark mode code */
-/* Arrow */
-.arrow{
-  height: 50px;
-  margin-top: 2px;
-  margin-left:60vw;
-}
-.text{
-  margin-top: 2px;
-  margin-left:70vw;
-}
-/* Set background color and text color for dark mode */
-body.dark {
-  background-color: rgb(0, 0, 0);
-  color: #dddddd;
-  /* color: #e3e3e3;  */
-}
-/* Styles for switch element */
-.switch {
-  position: relative;
-  width: 3.5rem;
-  height: 2rem;
-  margin-top: 20px;
-  margin-left: 80vw; 
-}
-/* Hide the switch input element */
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-/* Styles for slider element */
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgb(215, 215, 228);
-  transition: 0.4s;
-  border-radius: 30px;
- 
-}
-/* Styles for slider handle */
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 1.4rem;
-  width: 1.4rem;
-  border-radius: 20px;
-  left: 0.3rem;
-  top: 50%;
-  transform: translateY(-50%);
-  background: linear-gradient(40deg, #ff0080, #ff8c00 70%);
-  transition: 0.4s;
-}
-/* Styles for slider when switch is checked */
-input:checked + .slider {
-  background-color: #37393f;
-}
-/* Styles for slider handle when switch is checked */
-input:checked + .slider:before {
-  left: calc(100% - 1.7rem);
-  background: #37393f;
-  box-shadow: inset -4px -2px 4px -2px #8983f7, inset -10px -4px 0px 0px #a3dafb;
-}
-
-
-/* **** <*> **** */
+/* **** < Footer Section > **** */
 
 
 /* Styles for footer element */
