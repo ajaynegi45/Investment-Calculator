@@ -1,30 +1,3 @@
-// const input = document.querySelector("input");
-// const body = document.querySelector("body");
-// const click = document.querySelector(".a_tag");
-
-// const toggleThemeMode = () => {
-//   body.classList.toggle("dark");
-//   click.style.color ='white';
-// };
-
-// input.onchange = toggleThemeMode;
-
-
-const input = document.querySelector("input");
-const body = document.querySelector("body");
-const click = document.querySelector(".a_tag");
-
-const toggleThemeMode = () => {
-  body.classList.toggle("dark");
-  if (body.classList.contains("dark")) {
-    click.style.color = '#dddddd';
-  } else {
-    click.style.color = 'black';
-  }
-};
-
-input.onchange = toggleThemeMode;
-
 
 // make function to calculate
 
