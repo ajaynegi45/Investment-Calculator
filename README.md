@@ -49,7 +49,7 @@ Contributions are always welcome! ✨
 
 See [`contributing.md`](https://github.com/ajaynegi45/Investment-Calculator/blob/main/contributing.md) for ways to get started.
 
-Please adhere to this project's [`code of conduct`](https://github.com/ajaynegi45/Investment-Calculator/blob/main/code_of_conduct.md).
+Please adhere to this project's [`code_of_conduct.md`](https://github.com/ajaynegi45/Investment-Calculator/blob/main/code_of_conduct.md).
 
 ## Feedback and Support 🎗️
 
@@ -62,6 +62,4 @@ Thank you for your interest in the Dividend Income Investment Calculator! ❤️
 
 ## Authors
 
-- [@ajaynegi45](https://github.com/ajaynegi45)
-
-
+- 🙍🏻‍♂️ [@ajaynegi45](https://github.com/ajaynegi45)
