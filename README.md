@@ -1,3 +1,4 @@
+
 # Dividend Income Investment Calculator
 
 If you're looking to plan 📆 your investments and achieve your income goals 💰, the Dividend Income Investment Calculator is a valuable web application to consider. 
@@ -7,7 +8,7 @@ This tool allows you to easily calculate the how much investment is required to 
 Its user-friendly interface and straightforward design make it simple to use for anyone looking to invest in dividend income. With the Dividend Income Investment Calculator, you can efficiently plan your investments and work towards achieving your financial objectives.
 ## How to use it ?
 
-![App Screenshot](https://github.com/ajaynegi45/Investment-Calculator/blob/main/public/img/tools.jpg?raw=true)
+![Dividend Income Investment Calculator](https://github.com/ajaynegi45/Investment-Calculator/blob/main/public/img/tools.jpg?raw=true)
 
 - The user enters their desired income goal for the year in the "How much money you want per year" input field.
 
@@ -20,20 +21,27 @@ Its user-friendly interface and straightforward design make it simple to use for
 - The user can adjust the inputs and click the "Calculate" button again to see updated results.
 
 
-## Features
+## Features 🔥
 There are many reasons why you might want to use the Dividend Income Investment Calculator. Here are a few:
 
 
-- Planning: The calculator is a great tool for planning your investments and determining how much you need to invest to reach your income goals.
+- **Planning**: The calculator is a great tool for planning your investments and determining how much you need to invest to reach your income goals.
 
-- Financial Goal Setting: Whether you're saving for retirement, a down payment on a house, or a child's education, the calculator can help you set and achieve your financial goals.
+- **Financial Goal Setting**: Whether you're saving for retirement, a down payment on a house, or a child's education, the calculator can help you set and achieve your financial goals.
 
-- Risk Management: By calculating the required investment amount based on a given dividend yield, the calculator can help you manage investment risk and ensure that you're making informed decisions.
+- **Risk Management**: By calculating the required investment amount based on a given dividend yield, the calculator can help you manage investment risk and ensure that you're making informed decisions.
+## Used By 🤗
+The Dividend Income Investment Calculator is designed for anyone who wants to plan their investments and achieve their income goals. Whether you're a beginner investor or an experienced trader, the calculator is a simple and effective tool for investment planning.
+## Tech Stack 👨🏻‍💻
+
+**Client:** Html, CSS, Javascript
+
+**Server:** Firebase
 ## Contributing
 
 Contributions are always welcome! ✨
 
-- [Click here for website](https://tools-45.web.app/)
+- [Click to check website](https://tools-45.web.app/)
 
 See `contributing.md` for ways to get started.
 
@@ -43,4 +51,3 @@ Please adhere to this project's `code of conduct`.
 ## Authors
 
 - [@ajaynegi45](https://github.com/ajaynegi45)
-
