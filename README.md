@@ -47,9 +47,9 @@ Contributions are always welcome! ✨
 
 - [Click to check website](https://tools-45.web.app/)
 
-See [`contributing.md`](https://github.com/ajaynegi45/Investment-Calculator/blob/main/code_of_conduct.md) for ways to get started.
+See [`contributing.md`](https://github.com/ajaynegi45/Investment-Calculator/blob/main/contributing.md) for ways to get started.
 
-Please adhere to this project's [`code of conduct`](https://github.com/ajaynegi45/Investment-Calculator/blob/main/contributing.md).
+Please adhere to this project's [`code of conduct`](https://github.com/ajaynegi45/Investment-Calculator/blob/main/code_of_conduct.md).
 
 ## Feedback and Support 🎗️
 
