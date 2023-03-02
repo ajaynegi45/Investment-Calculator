@@ -8,7 +8,7 @@ This tool allows you to easily calculate the how much investment is required to 
 Its user-friendly interface and straightforward design make it simple to use for anyone looking to invest in dividend income. With the Dividend Income Investment Calculator, you can efficiently plan your investments and work towards achieving your financial objectives.
 ## How to use it ?
 
-![Dividend Income Investment Calculator](https://github.com/ajaynegi45/Investment-Calculator/blob/main/public/img/tools.jpg?raw=true)
+![Dividend Income Investment Calculator](https://github.com/ajaynegi45/Investment-Calculator/blob/main/img/tools.jpg?raw=true)
 
 - The user enters their desired income goal for the year in the "How much money you want per year" input field.
 
