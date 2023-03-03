@@ -62,4 +62,4 @@ Thank you for your interest in the Dividend Income Investment Calculator! ❤️
 
 ## Authors
 
-- 🙍🏻‍♂️ [@ajaynegi45](https://github.com/ajaynegi45)
+- 🙍🏻‍♂️ [`@ajaynegi45`](https://github.com/ajaynegi45)
