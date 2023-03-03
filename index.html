@@ -36,17 +36,17 @@
         <p></p>
 
         <!-- Add labels and input fields for the user to input their data -->
-        <label for="moneyPerYear">How much money you want per year:</label>
+        <label class="money" for="moneyPerYear">How much money you want per year:</label>
         <br>
         <input type="number" id="moneyPerYear" name="moneyPerYear" placeholder="₹" required>
         <br>
-        <label for="dividendYield">Dividend yield of a share:</label>
+        <label class="dividend" for="dividendYield">Dividend yield of a share:</label>
         <br>
         <input type="number" id="dividendYield" name="dividendYield" placeholder="%" required>
         <br>
 
         <!-- Add a button to trigger the calculation -->
-        <button onclick="calculate()">Calculate</button>
+        <button id="calculate" onclick="calculate()">Calculate</button>
         <br>
         
         <!-- Add a label and paragraph element to display the result -->
