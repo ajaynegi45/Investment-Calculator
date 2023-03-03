@@ -54,15 +54,15 @@ function calculate() {
 
 // Scroll Revealing Effect
 const sr = ScrollReveal({
-  origin: 'top',
+  origin: 'bottom',
   distance: '60px',
   duration: 1000,
   delay: 200,
   reset: true
 });
 
-sr.reveal('.title',{delay: 200}); 
-sr.reveal('.switch, label',{interval: 200});
-sr.reveal('input, button, .a_tag ',{ interval: 400});
-sr.reveal('.title_info, .h2_title, .h2_title2',{ interval: 400});
-sr.reveal('p, li',{ interval: 400}); 
+sr.reveal('.switch, .title',{delay: 200}); 
+sr.reveal('.money, #moneyPerYear, .dividend, #dividendYield, #calculate',{interval: 200});
+sr.reveal('.a_tag ',{ interval: 200});
+sr.reveal('.title_info, .h2_title, .h2_title2',{ interval: 300});
+sr.reveal('p, li',{ origin: 'left',interval: 400}); 
