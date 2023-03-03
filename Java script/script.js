@@ -62,7 +62,7 @@ const sr = ScrollReveal({
 });
 
 sr.reveal('.switch, .title',{delay: 200}); 
-sr.reveal('.money, #moneyPerYear, .dividend, #dividendYield, #calculate',{interval: 200});
+sr.reveal('.money, #moneyPerYear, .dividend, #dividendYield, #calculate,.vikas, #result',{interval: 200});
 sr.reveal('.a_tag ',{ interval: 200});
 sr.reveal('.title_info, .h2_title, .h2_title2',{ interval: 300});
 sr.reveal('p, li',{ origin: 'left',interval: 400}); 
