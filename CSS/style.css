@@ -8,6 +8,7 @@ body {
   font-family: "Roboto";
   background-color: #f2f2f7;
   transition: 0.4s;
+  min-height: 100vh; 
 }
 
 
@@ -16,9 +17,12 @@ body {
 
 /* Form */
 .form{
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin: 10vw;
-  margin-bottom: 50px;
-  margin-top: 20px; 
   text-align: center; 
 }
 .title{
@@ -74,6 +78,50 @@ font-size: 15px;
 }
 
 
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 100px;
+  margin-left: 100px;
+  font-size: larger;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav h1 a {
+  margin: 0;
+  font-size: 35px;
+  color: #fff;
+  display: inline-block;
+}
+
+.title {
+  font-size: 36px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+
 /* **** < About Section> **** */
 
 
@@ -109,10 +157,9 @@ font-size: 15px;
 
 
 /* Styles for footer element */
-.footer{
+.footer {
   background-color: black;
   color: white;
   text-align: center;
-  height: 50px;
-  padding-top: 14px;
+  padding: 14px;
 }
