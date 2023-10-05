@@ -1,4 +1,36 @@
-function calculate() {
+const input = document.querySelector("input");
+const body = document.querySelector("body");
+const click = document.querySelector(".a_tag");
+
+const toggleThemeMode = () => {
+  body.classList.toggle("dark");
+  if (body.classList.contains("dark")) {
+    click.style.color = '#dddddd';
+  } else {
+    click.style.color = 'black';
+  }
+};
+
+input.onchange = toggleThemeMode;
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  var body = document.getElementsByTagName("body")[0];
+  var resultLabel = document.getElementById("result-label");
+
+  if (getComputedStyle(body).backgroundColor === "rgb(0, 0, 0)") {
+    alert("Background color is black!");
+    resultLabel.style.color = "#ffffff";
+  }
+});
+
+
+
+
+
+
+  function calculate() {
      // Get the input values from the DOM
      const moneyPerYear = document.getElementById("moneyPerYear").value;
      const dividendYield = document.getElementById("dividendYield").value;
@@ -50,11 +82,11 @@ function calculate() {
     }
   }
   
-  
 
+  
 // Scroll Revealing Effect
 const sr = ScrollReveal({
-  origin: 'bottom',
+  origin: 'top',
   distance: '60px',
   duration: 1000,
   delay: 200,
@@ -62,7 +94,9 @@ const sr = ScrollReveal({
 });
 
 sr.reveal('.switch, .title',{delay: 200}); 
-sr.reveal('.money, #moneyPerYear, .dividend, #dividendYield, #calculate,.vikas, #result',{interval: 200});
-sr.reveal('.a_tag ',{ interval: 200});
-sr.reveal('.title_info, .h2_title, .h2_title2',{ interval: 300});
-sr.reveal('p, li',{ origin: 'left',interval: 400}); 
+sr.reveal('.title,#topChart',{interval: 200});
+sr.reveal('.money, #moneyPerYear, .dividend, #dividendYield, #calculate,.vikas, #result',{origin: 'bottom',interval: 200});
+sr.reveal('.a_tag ',{ origin: 'bottom',interval: 200});
+sr.reveal('.title_info, .h2_title, .h2_title2',{origin: 'bottom',interval: 300});
+sr.reveal('p, li,#news,,iframe',{ origin: 'left',interval: 200}); 
+sr.reveal('.p_footer',{origin: 'bottom',interval: 300});

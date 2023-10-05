@@ -1,118 +1,350 @@
 *{
-margin: 0px;
-box-sizing: border-box;
-}
-body {
-  display: flex;
-  flex-direction: column;
-  font-family: "Roboto";
-  background-color: #f2f2f7;
-  transition: 0.4s;
-}
-
-
-/* **** < Hero Section > **** */
-
-
-/* Form */
-.form{
-  margin: 10vw;
-  margin-bottom: 50px;
-  margin-top: 20px; 
-  text-align: center; 
-}
-.title{
-  font-size: 4vw;
-  text-align: center;
-  margin-bottom: 20px;
-}
-@media only screen and (max-width: 500px) {
-  .title{
+  margin: 0px;
+  box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+    background-color: #f2f2f7;
+    transition: 0.4s;
+  }
+  
+  
+  /* **** <*> **** */
+  
+  
+  /* Dark mode code */
+  /* Arrow */
+  .arrow{
+    height: 50px;
+    margin-top: 2px;
+    margin-left:60vw;
+  }
+  .text{
+    margin-top: 2px;
+    margin-left:70vw;
+  }
+  /* Set background color and text color for dark mode */
+  body.dark {
+    background-color: rgb(0, 0, 0);
+    color: #dddddd;
+  }
+  /* Styles for switch element */
+  .switch {
+    position: relative;
+    width: 3.5rem;
+    height: 2rem;
+    margin-top: 10px;
+    margin-left: 80vw; 
+  }
+  /* Hide the switch input element */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  /* Styles for slider element */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(215, 215, 228);
+    transition: 0.4s;
+    border-radius: 30px;
+   
+  }
+  /* Styles for slider handle */
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 1.4rem;
+    width: 1.4rem;
+    border-radius: 20px;
+    left: 0.3rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(40deg, #ff0080, #ff8c00 70%);
+    transition: 0.4s;
+  }
+  /* Styles for slider when switch is checked */
+  input:checked + .slider {
+    background-color: #37393f;
+  }
+  /* Styles for slider handle when switch is checked */
+  input:checked + .slider:before {
+    left: calc(100% - 1.7rem);
+    background: #37393f;
+    box-shadow: inset -4px -2px 4px -2px #8983f7, inset -10px -4px 0px 0px #a3dafb;
+  }
+  
+  
+  /* **** <*> **** */
+  
+  /* .github{
+    position:absolute;
+    width: fit-content;
+    padding-top: 1vw;
+    padding-bottom: 1vw ;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background: #37393f;
+    color: white;
+    text-decoration: none;
+      transform: rotate(-50deg) translate(-100px, 20px) scale(1.2);
+  } */
+  
+  
+  .github {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: fit-content;
     font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 79px;
+    padding-right: 79px;
+    background-color: #37393f;
+    color: white;
+    text-decoration: none;
+    transform: rotate(-50deg) translate(-65%, 50px) scale(1.2);
+    transform-origin: top left;
+  }
+  
+  .github:hover {
+    background: #4caf50;
+  }
+  .iconify{
+    font-size: 20px;
+  }
+  @media only screen and (max-width: 650px) {
+    .github {
+      font-size: 15px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      padding-left: 69px;
+      padding-right: 69px;
+      transform: rotate(-50deg) translate(-65%, 30px) scale(1.2);
+    }
+    .iconify{
+      font-size: 17px;
+    }
+  }
+  
+  
+  
+  
+  /* .StockCard__widget-footer_2Ouda{
+    visibility: hidden;
+  } 
+  
+  .div.StockCard_widget-footer_2Ouda.flex-apart{
+    visibility: hidden;
+  }
+  
+  
+  
+  .SstCard__cta-buy_3oG2a font-medium pointer SstCard__cta-buy--big_10s8Z{
+  
+    visibility: hidden;
+  } */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* **** <*> **** */
+  
+  
+  /* Form */
+  .form{
+    margin: 10vw;
+    margin-bottom: 50px;
+    margin-top: 20px; 
+    text-align: center; 
+  }
+  
+  .title{
+    font-size: 4vw;
     text-align: center;
     margin-bottom: 20px;
   }
-}
-.label {
-  display: block;
-  margin-bottom: 10px;
-}
-input[type="number"] {
-  width: 240px;
-  padding: 10px;
-  border: 1px solid #4CAF50;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  outline: none;
-} 
-button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-bottom: 10px;
-}
-button:hover {
-  background-color: #45a049;
-}
-#result-label {
-  font-weight: bold;
-}
-#result {
-  margin-top: 5px;
-  font-size: 18px;
-  margin-bottom: 30px;
-}
-.a_tag{
-text-decoration: none;
-color: black;
-font-size: 15px;
-}
-
-
-/* **** < About Section> **** */
-
-
-/* 2ndDiv info  */
-.info{
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-bottom: 5vw;
-}
-.info .title{
+  
+  @media only screen and (max-width: 500px) {
+    .title {
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+  .label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  input[type="number"] {
+    width: 240px;
+    padding: 10px;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    outline: none;
+  } 
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  #result-label {
+    font-weight: bold;
+  }
+  #result {
+    margin-top: 5px;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .a_tag{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  }
+  
+  
+  /* **** <*> **** */
+  
+  
+  /* 2ndDiv info  */
+  .info{
+      margin-left: 10vw;
+      margin-right: 10vw;
+      margin-bottom: 5vw;
+  }
+  /* .info .title{
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 20px;
+  } */
+  .title_info{
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
-}
-.h2_title{
-  margin-top: 20px;
-  font-size: 22px;
-}
-.h2_title2{
-  margin-top: 35px;
-  font-size: 22px;
-}
-.p_tag{
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-@media only screen and (max-width: 768px) {
-
-}
-
-
-/* **** < Footer Section > **** */
-
-
-/* Styles for footer element */
-.footer{
-  background-color: black;
-  color: white;
-  text-align: center;
-  height: 50px;
-  padding-top: 14px;
-}
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .title_info{
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .h2_title{
+    margin-top: 20px;
+    font-size: 22px;
+  }
+  .h2_title2{
+    margin-top: 35px;
+    font-size: 22px;
+  }
+  .p_tag{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  @media only screen and (max-width: 768px) {
+  
+  }
+  
+  
+  
+  
+  
+  /* **** <*> **** */
+  
+  
+  /* Styles for footer element */
+  .footer{
+  
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding-top: 14px;
+  
+  
+  }
+  
+  
+  
+  
+  
+  /* .SstCard__cta-buy--big_10s8Z span{
+    visibility: hidden;
+    border-color: #ff8c00;
+  
+    margin-top: 100px;
+  }
+  
+  
+  .SstCard__cta-buy_3oG2a {
+    visibility: hidden;
+    border-color: #ff8c00;
+  
+    margin-top: 100px;
+  
+  }
+  
+  .SstCard__cta-buy_3oG2a, .SstCard__cta-sell_2bHTj {
+    font-size: 12px;
+    width: 100%;
+    height: 38px;
+    border-radius: 4px;
+    border: 1px solid;
+    color: #5c19af !important;
+    font-size: 15px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+  
+  
+  .ajju_bhai{
+    height: 720px;
+  }
+  
+  #stock_search{
+    display: flex;
+    justify-items: center;
+    /* margin: 4vw;
+    margin-bottom: 50px;
+    margin-top: 20px;  */
+    text-align: center; 
+  }
+  
+  .sc-embed{
+  
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px ;
+  }
+  
+  
+  #search{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
