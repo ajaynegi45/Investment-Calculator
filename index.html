@@ -31,34 +31,58 @@
 </head>
 <script src="https://unpkg.com/scrollreveal"></script>
 <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
-<!-- <script async src="https://www.gateway-tt.in/assets/embed.js"  async></script>  -->
+<script async src="https://www.gateway-tt.in/assets/embed.js"></script> 
 
 <body>
 
 
 
-    <!-- Top moving chart  Widget BEGIN -->
+    <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container" id="topChart">
     <div class="tradingview-widget-container__widget"></div>
     <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
     {
-    "symbols" : [
-      { "proName": "FOREXCOM:SPXUSD", "title": "S&P 500" },
-      { "proName": "FOREXCOM:NSXUSD", "title": "US 100"},
-      { "proName": "FX_IDC:EURUSD", "title": "EUR/USD" },
-      { "proName": "BITSTAMP:BTCUSD", "title": "Bitcoin" },
-      { "proName": "BITSTAMP:ETHUSD", "title": "Ethereum" }
+    "symbols": [
+      {
+        "proName": "FOREXCOM:SPXUSD",
+        "title": "S&P 500"
+      },
+      {
+        "proName": "FOREXCOM:NSXUSD",
+        "title": "US 100"
+      },
+      {
+        "proName": "FX_IDC:EURUSD",
+        "title": "EUR/USD"
+      },
+      {
+        "proName": "BITSTAMP:BTCUSD",
+        "title": "Bitcoin"
+      },
+      {
+        "proName": "BITSTAMP:ETHUSD",
+        "title": "Ethereum"
+      }
     ],
-    {"showSymbolLogo" : true, 
-    "colorTheme" : "light", 
-    "isTransparent" : false, 
-    "displayMode" : "adaptive", 
-    "locale" : "in"}
+    "showSymbolLogo" :true,
+    "colorTheme": "light",
+    "isTransparent": false,
+    "displayMode": "adaptive",
+    "locale": "in"
   }
     </script>
   </div>
-  <!-- Top moving chart Widget END -->
-
+  <!-- TradingView Widget END -->
+   
+    <!-- Create the rectangle box -->
+    <!-- <div class="box"> -->
+      <!-- Create the GitHub icon and position it in the top-left corner -->
+      <!-- <div class="github-icon"> -->
+        <!-- <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub icon">
+       
+        <iconify-icon icon="mdi:github"></iconify-icon>
+      </div>
+    </div> -->
 <div>
     <a  class="github"  href="https://github.com/ajaynegi45/Investment-Calculator" target="_blank" rel="noopener noreferrer" >GitHub <span class="iconify" data-icon="logos:github-octocat"></span></a>
 </div>
@@ -66,6 +90,7 @@
 
     
 
+    <!-- <h1 class="animate__animated animate__bounce">An animated element</h1> -->
 
     <label class="switch">
         <input type="checkbox"/>
@@ -76,6 +101,10 @@
     <div class="form">
         <h1 class="title">Dividend Income Investment Calculator</h1>
         <p></p>
+
+        
+        
+        
 
         <!-- Add labels and input fields for the user to input their data -->
         <label class="money" for="moneyPerYear">How much money you want per year:</label>
@@ -96,10 +125,8 @@
         <p id="result"></p>
 
         <!-- Link to find Dividend Yield -->
-        <a href="https://www.angelone.in/calculators/dividend-yield-calculator#:~:text=The%20calculation%20is%20done%20using,335%20*%20100%20%3D%203.58%25" class="a_tag">Click here to find Dividend Yield </a>
-
+        <a href="https://www.angelone.in/calculators/dividend-yield-calculator#:~:text=The%20calculation%20is%20done%20using,335)%20*%20100%20%3D%203.58%25" class="a_tag">Click here to find Dividend Yield </a>
     </div>
-
 
     <div class="info">
 
@@ -153,29 +180,26 @@
 
 
 
-         <!-- News Widget BEGIN -->
-         <h2 class="h2_title2" style="margin-bottom: 10px;">Market News 🗞️</h2>
-         <div class="tradingview-widget-container" id="news">
-         <div class="tradingview-widget-container__widget"></div>
-         <div class="tradingview-widget-copyright">Scroll up for more News 🗞️</div>
-         <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js" async>{
-         "feedMode": "market",
-         "colorTheme": "light",
-         "isTransparent": false,
-         "displayMode":"regular",
-         "width": "100%",
-         "height": "620",
-         "locale": "in",
-         "market": "stock"
-        }
-        </script>
-        <!-- News Widget END -->
-        
+        <!-- TradingView Widget BEGIN -->
+        <h2 class="h2_title2" style="margin-bottom: 10px;">Market News 🗞️</h2>
+<div class="tradingview-widget-container" id="news">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright">Scroll up for more News 🗞️</div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js" async>
+    {
+    "feedMode": "market",
+    "colorTheme": "light",
+    "isTransparent": false,
+    "displayMode": "regular",
+    "width": "100%",
+  "height": "620",
+    "locale": "in",
+    "market": "stock"
+  }
+    </script>
   </div>
-  
- 
-
-</div> 
+  <!-- TradingView Widget END -->
+    </div> 
 
     <!-- Footer -->
     <div class="footer">
@@ -183,7 +207,8 @@
     </div>
 
   <!-- Include the JavaScript file for the calculation function -->
-  <scrip src="./Java script/script.js"></script>
+  <script src="./Javascript/script.js"></script>
+  
 
 </body>
 </html>
