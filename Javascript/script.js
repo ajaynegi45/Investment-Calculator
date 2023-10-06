@@ -37,7 +37,7 @@ function calculate() {
   if (!isNaN(moneyToInvest)) {
     input1.style.border = "1px solid #4CAF50";
     input2.style.border = "1px solid #4CAF50";
-    resultLabel.style.color = "black";
+    resultLabel.style.color = body.classList.contains("dark") ? "#fff" : "black";
     resultLabel.style.fontSize = "20px";
     resultLabel.textContent = `You need to invest: ₹${moneyToInvest.toLocaleString()} `;
     result.textContent = `to earn ₹${moneyPerYear.toLocaleString()} per year at a ${dividendYield}% dividend yield.`;
