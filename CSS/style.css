@@ -36,7 +36,29 @@
     width: 3.5rem;
     height: 2rem;
     margin-top: 10px;
-    margin-left: 80vw; 
+    margin-right: 10%;
+  }
+  /* Styles for navlink element */
+  .navlink {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10%;
+    padding: 10px 20px;
+    background-color: rgb(215, 215, 228);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .navlink:hover {
+    background-color: rgb(226, 226, 238);
+  }
+  /* Styles for flex div element */
+  .flexdiv {
+    display: flex;
+    justify-content: space-between;
   }
   /* Hide the switch input element */
   .switch input {
@@ -248,9 +270,10 @@
   
   @media only screen and (max-width: 500px) {
     .title_info{
-      font-size: 20px;
+      font-size: 23px;
       text-align: center;
       margin-bottom: 20px;
+      margin-top: 10px;
     }
   }
   
