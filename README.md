@@ -1,3 +1,8 @@
+<h1 align="center"><a href="https://github.com/vrittles/Mini-Projects">Welcome to Hacktoberfest 2023</a></h1>
+
+<p align="center">
+  <img width="300" src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*Lz_KFgbak2sUjwjOG9SZ4g.png">
+</p>
 
 # Dividend Income Investment Calculator
 
@@ -50,6 +55,64 @@ Contributions are always welcome! ✨
 See [`contributing.md`](https://github.com/ajaynegi45/Investment-Calculator/blob/main/contributing.md) for ways to get started.
 
 Please adhere to this project's [`code_of_conduct.md`](https://github.com/ajaynegi45/Investment-Calculator/blob/main/code_of_conduct.md).
+
+
+
+
+
+## What is Hacktoberfest?
+
+- [Hacktoberfest](https://hacktoberfest.com/) is a month-long event celebrating open source and encouraging contributions to open-source projects.
+- It's open to everyone, whether you're a seasoned developer or just starting out.
+- It's [Hacktoberfest month](https://hacktoberfest.com) and this is the **10th year**! 🥳
+- By participating in Hacktoberfest, you can contribute to open source, learn new skills, and earn some cool swag.
+
+## Event Details
+
+- **Date**: October 1st - October 31st, 2023
+- **Location**: Online, Global
+- **Website**: [Hacktoberfest Official Website](https://hacktoberfest.com/)
+
+## Getting Started
+![ixtv9dsr5qohhnz0gkup](https://github.com/anshul-132002/Mini-Projects/assets/128448038/0cf0b20b-21da-49f1-a22b-484f6656b5c5)
+
+To get started with contributing to our project, follow these simple steps:
+
+
+1. **Fork this repository**: Click the "Fork" button in the top right corner of this repository's page.
+2. **Clone your fork**: On your GitHub account, find the forked repository, and click the "Code" button to get the repository URL. Then, use `git clone` to clone it locally.
+3. **Make your contributions**: Work on the project, make improvements, or add new features. Ensure your code is well-documented and follows the project's guidelines.
+4. **Commit and Push**: Commit your changes, and then push them to your forked repository.
+5. **Create a Pull Request (PR)**: Head back to the original repository on GitHub, click the "New Pull Request" button, and follow the prompts to create your PR.
+
+## Contribution Guidelines
+
+Before you start contributing, please keep these guidelines in mind:
+
+- Make sure your contributions align with the project's purpose and objectives.
+- Use clear and descriptive commit messages.
+- Adhere to the project's coding style and conventions.
+- Test your changes thoroughly to ensure they work as expected.
+- Document your code when necessary.
+- Create a new branch for your contribution (`git checkout -b my-contribution`).
+
+## Types of Contributions
+
+You can contribute in various ways:
+
+- Fixing bugs or issues.
+- Adding new features or enhancements.
+- Improving documentation.
+- Reviewing and providing feedback on pull requests.
+
+## Hacktoberfest Rules
+
+Here are some rules to follow during Hacktoberfest:
+
+- PRs can be made in any GitHub-hosted project participating in Hacktoberfest.
+- The first 50,000 participants to have their first PR accepted will have a tree planted in their name through Tree Nation.
+- Participants with four PRs accepted between October 1 and October 31 will receive a unique digital reward.
+
 
 ## Feedback and Support 🎗️
 
