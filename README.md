@@ -55,8 +55,7 @@ Please adhere to this project's [`code_of_conduct.md`](https://github.com/ajayne
 
 We're always happy to hear from our contributors and users. 
 
-If you have feedback or suggestions for how we can improve the project, please let us know. You can reach out to us on the project's issue tracker or through [email](mailto:contact@ajaynegi.co).
-
+If you have feedback or suggestions for how we can improve the project, please let us know. You can reach out to us on the project's issue tracker
 ## Thankyou ❤️
 Thank you for your interest in the Dividend Income Investment Calculator! ❤️
 
